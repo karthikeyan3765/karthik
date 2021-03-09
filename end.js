@@ -23,11 +23,11 @@ function Check_Pass_Fail(num)
 {
 	if(num < 1)
 {
-	document.getElementById("im").innerHTML= "<img src='images/los.png\' width=\'300px\' height=\'250px\'>";	
+	document.getElementById("im").innerHTML= "<img src='los.png\' width=\'300px\' height=\'250px\'>";	
 }
 else
 { 
-	document.getElementById("im").innerHTML= "<img src='images/win.png\'width=\'300px\' height=\'250px\'>";
+	document.getElementById("im").innerHTML= "<img src='win.png\'width=\'300px\' height=\'250px\'>";
 }
 
 }
